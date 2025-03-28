@@ -1,6 +1,6 @@
 # css-tools.nvim
 
-A Neovim plugin designed to enhance your CSS development workflow using the Language Server Protocol (LSP) features provided by `cssls`.
+A Neovim plugin designed to enhance your CSS development workflow using LSP features provided by `cssls`.
 
 ## Features
 
