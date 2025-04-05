@@ -39,6 +39,22 @@ Once installed, `css-tools.nvim` needs to be configured to function properly:
   See [https://github.com/microsoft/vscode-css-languageservice/blob/main/docs/customData.md](https://github.com/microsoft/vscode-css-languageservice/blob/main/docs/customData.md)
   and [https://github.com/microsoft/vscode-custom-data](https://github.com/microsoft/vscode-custom-data) for more information.
 
+### Parameters
+
+- `customData` (table<string>): A list of file paths (relative or absolute) or urls (http or https) pointing to your custom data files.
+  See [https://github.com/microsoft/vscode-css-languageservice/blob/main/docs/customData.md](https://github.com/microsoft/vscode-css-languageservice/blob/main/docs/customData.md)
+  and [https://github.com/microsoft/vscode-custom-data](https://github.com/microsoft/vscode-custom-data) for more information.
+
+## Presets
+
+```lua
+{
+    customData = {
+        "https://gist.githubusercontent.com/steschwa/5a5b859caa0f96a3ada02b4dca145c44/raw/7a027941f59b484807a4db3b89553d2c09b57470/tailwindcss.customData.json" -- tailwindcss v4
+    }
+}
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
