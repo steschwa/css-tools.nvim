@@ -50,7 +50,8 @@ Once installed, `css-tools.nvim` needs to be configured to function properly:
 ```lua
 {
     customData = {
-        "https://gist.githubusercontent.com/steschwa/5a5b859caa0f96a3ada02b4dca145c44/raw/7a027941f59b484807a4db3b89553d2c09b57470/tailwindcss.customData.json" -- tailwindcss v4
+        -- tailwindcss v4
+        "https://gist.githubusercontent.com/steschwa/5a5b859caa0f96a3ada02b4dca145c44/raw/7a027941f59b484807a4db3b89553d2c09b57470/tailwindcss.customData.json"
     }
 }
 ```
