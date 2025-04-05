@@ -22,4 +22,10 @@ function Path.get_data_dir_path(dir_name)
 	return vim.fs.joinpath(data_dir, dir_name)
 end
 
+---@param path string
+---@return boolean
+function Path.file_exists(path)
+	return vim.fn.filereadable(path) == 1
+end
+
 return Path
