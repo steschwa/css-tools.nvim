@@ -13,6 +13,7 @@ To install `css-tools.nvim`, you can use your preferred plugin manager. For exam
 ```lua
 return {
     "steschwa/css-tools.nvim",
+    ft = { "css" }, -- lazy load on `css` filetype
     opts = {
         -- see below for the full configuration reference
     }
@@ -32,12 +33,6 @@ Once installed, `css-tools.nvim` needs to be configured to function properly:
     },
 }
 ```
-
-### Parameters
-
-- `customData` (table<string>): A list of file paths (relative or absolute) or urls (http or https) pointing to your custom data files.
-  See [https://github.com/microsoft/vscode-css-languageservice/blob/main/docs/customData.md](https://github.com/microsoft/vscode-css-languageservice/blob/main/docs/customData.md)
-  and [https://github.com/microsoft/vscode-custom-data](https://github.com/microsoft/vscode-custom-data) for more information.
 
 ### Parameters
 
